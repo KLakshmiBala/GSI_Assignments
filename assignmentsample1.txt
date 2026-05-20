@@ -3,3 +3,4 @@ Automation
 Git
 Java 
 Selenium
+Playwright
