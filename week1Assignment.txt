@@ -1,0 +1,25 @@
+class Week1Assignment {
+
+	public static void main(String[] args) {
+		//Question1
+		float marks = 87.6F;
+		double d1 = marks;
+		int n1 = (int)marks;
+		char c1 = (char)n1;
+		System.out.println("Float value: " + marks);
+		System.out.println("Double value: " + d1);
+		System.out.println("Integer value: " + n1);
+		System.out.println("Character value: " + c1);
+		
+		//Question2
+		char ch = 'A';
+		int value = ch;
+		int n2 = (char)value + 5;
+		char ch1 = (char)n2;		
+		System.out.println("ASCII value: " + value);
+		System.out.println("New ASCII value: " + n2);
+		System.out.println("New character: " + ch1);
+
+	}
+
+}
